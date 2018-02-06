@@ -17,3 +17,8 @@ Think of it like a loader transforms shit
 npm i babel-loader babel-core babel-preset-env babel-preset-react --save-dev
 
 //React component patterns check some out
+
+//React PropTypes lets you check the passed in props and make sure they are what the correct type ie string, num, function,... also if it isRequired or not
+
+//Web pack needs these packages to create an html page
+npm i html-webpack-plugin html-loader --save-dev 
