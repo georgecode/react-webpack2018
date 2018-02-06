@@ -1054,6 +1054,10 @@ var FormContainer = function (_Component) {
 
 exports.default = FormContainer;
 
+
+var wrapper = document.getElementById("create-article-form");
+wrapper ? _reactDom2.default.render(_react2.default.createElement(FormContainer, null), wrapper) : false;
+
 /***/ }),
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
