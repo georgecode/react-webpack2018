@@ -1,0 +1,19 @@
+https://www.valentinog.com/blog/react-webpack-babel/
+
+
+
+
+//the -p creates all parent directorys needed in yhis case src
+$ mkdir -p src/js
+
+//the -y auot fills all the npm init options with the default value ie "license" and that shit
+$ npm init -y
+
+// Webpack loaders
+A Webpack loader  takes something as the input and produces something else as the output.
+Think of it like a loader transforms shit
+
+// babel config
+npm i babel-loader babel-core babel-preset-env babel-preset-react --save-dev
+
+//React component patterns check some out
