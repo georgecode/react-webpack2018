@@ -22,3 +22,6 @@ npm i babel-loader babel-core babel-preset-env babel-preset-react --save-dev
 
 //Web pack needs these packages to create an html page
 npm i html-webpack-plugin html-loader --save-dev 
+
+//This is web packs version of shotgun it allows the page to auto reload
+npm i webpack-dev-server --save-dev
